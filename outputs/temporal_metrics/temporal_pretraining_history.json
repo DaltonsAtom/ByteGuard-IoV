@@ -1,0 +1,52 @@
+{
+    "model": "ByteGuard-IoV Temporal BERT",
+    "training_dataset": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\data\\temporal\\train.csv",
+    "validation_dataset": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\data\\temporal\\validation.csv",
+    "vocabulary": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\data\\temporal\\vocab.json",
+    "architecture": {
+        "embedding_dimension": 64,
+        "transformer_layers": 2,
+        "attention_heads": 4,
+        "feed_forward_dimension": 128,
+        "maximum_sequence_length": 12,
+        "dropout": 0.1,
+        "vocabulary_size": 2298,
+        "trainable_parameters": 221498
+    },
+    "training_configuration": {
+        "epochs": 3,
+        "batch_size": 64,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.01,
+        "mlm_probability": 0.15,
+        "random_seed": 42
+    },
+    "epochs": [
+        {
+            "epoch": 1,
+            "training_loss": 6.004796459550404,
+            "validation_loss": 3.1710777605096516,
+            "training_masked_tokens": 79172,
+            "validation_masked_tokens": 11908,
+            "time_seconds": 65.28648352622986
+        },
+        {
+            "epoch": 2,
+            "training_loss": 2.7891339827729387,
+            "validation_loss": 2.296841616315522,
+            "training_masked_tokens": 79256,
+            "validation_masked_tokens": 11908,
+            "time_seconds": 97.68034768104553
+        },
+        {
+            "epoch": 3,
+            "training_loss": 2.209507142214842,
+            "validation_loss": 1.934423043075575,
+            "training_masked_tokens": 79019,
+            "validation_masked_tokens": 11908,
+            "time_seconds": 68.5322539806366
+        }
+    ],
+    "best_validation_loss": 1.934423043075575,
+    "checkpoint": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\models\\temporal_byteguard_mlm.pt"
+}

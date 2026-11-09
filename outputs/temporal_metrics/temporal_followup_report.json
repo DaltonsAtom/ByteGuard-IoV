@@ -1,0 +1,17 @@
+{
+    "evaluation": "Normal-only chronological follow-up",
+    "number_of_records": 20000,
+    "true_normal_records": 20000,
+    "true_negatives": 20000,
+    "false_positives": 0,
+    "false_positive_rate": 0.0,
+    "normal_acceptance_rate": 1.0,
+    "predicted_class_distribution": {
+        "Normal": 20000,
+        "DoS": 0,
+        "Fuzzy": 0,
+        "Gear Spoofing": 0,
+        "RPM Spoofing": 0
+    },
+    "interpretation": "This dataset contains normal records only. The false positive rate measures the proportion of normal records classified as an attack. It does not measure attack detection performance."
+}

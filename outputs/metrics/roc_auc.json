@@ -1,0 +1,16 @@
+{
+    "roc_auc": {
+        "Normal": 1.0,
+        "DoS": 1.0,
+        "Fuzzy": 1.0,
+        "Gear Spoofing": 1.0,
+        "RPM Spoofing": 1.0
+    },
+    "average_precision": {
+        "Normal": 1.0,
+        "DoS": 1.0,
+        "Fuzzy": 1.0,
+        "Gear Spoofing": 1.0,
+        "RPM Spoofing": 1.0
+    }
+}

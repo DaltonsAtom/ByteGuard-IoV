@@ -16,5 +16,4 @@ __pycache__/
 # ADD THESE: Ignore heavy project assets/outputs
 data/
 models/
-outputs/
 .idea/

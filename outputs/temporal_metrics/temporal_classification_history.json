@@ -1,0 +1,114 @@
+{
+    "model": "ByteGuard-IoV Temporal Classifier",
+    "pretrained_checkpoint": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\models\\temporal_byteguard_mlm.pt",
+    "architecture": {
+        "vocab_size": 2298,
+        "pad_id": 0,
+        "embed_dim": 64,
+        "num_layers": 2,
+        "num_heads": 4,
+        "ffn_dim": 128,
+        "max_seq_len": 12,
+        "dropout": 0.1
+    },
+    "training_configuration": {
+        "epochs": 10,
+        "batch_size": 64,
+        "learning_rate": 5e-05,
+        "weight_decay": 0.01,
+        "early_stopping_patience": 3,
+        "random_seed": 42
+    },
+    "class_names": [
+        "Normal",
+        "DoS",
+        "Fuzzy",
+        "Gear Spoofing",
+        "RPM Spoofing"
+    ],
+    "epochs": [
+        {
+            "epoch": 1,
+            "training_loss": 0.3367965901017189,
+            "training_accuracy": 0.91378,
+            "validation_loss": 0.03460106507986784,
+            "validation_accuracy": 0.9952,
+            "time_seconds": 33.975828647613525
+        },
+        {
+            "epoch": 2,
+            "training_loss": 0.03670073487639427,
+            "training_accuracy": 0.9944,
+            "validation_loss": 0.01437711191525062,
+            "validation_accuracy": 0.9976,
+            "time_seconds": 22.71048402786255
+        },
+        {
+            "epoch": 3,
+            "training_loss": 0.018786834532916546,
+            "training_accuracy": 0.99698,
+            "validation_loss": 0.011077041930829486,
+            "validation_accuracy": 0.9976,
+            "time_seconds": 19.566895723342896
+        },
+        {
+            "epoch": 4,
+            "training_loss": 0.012059929192066193,
+            "training_accuracy": 0.99778,
+            "validation_loss": 0.007930318202761312,
+            "validation_accuracy": 0.9982666666666666,
+            "time_seconds": 27.643712997436523
+        },
+        {
+            "epoch": 5,
+            "training_loss": 0.009329801781699062,
+            "training_accuracy": 0.9981,
+            "validation_loss": 0.008368353210048128,
+            "validation_accuracy": 0.9984,
+            "time_seconds": 19.853947401046753
+        },
+        {
+            "epoch": 6,
+            "training_loss": 0.006552295712679624,
+            "training_accuracy": 0.99856,
+            "validation_loss": 0.005900063001488646,
+            "validation_accuracy": 0.9985333333333334,
+            "time_seconds": 19.196141719818115
+        },
+        {
+            "epoch": 7,
+            "training_loss": 0.0050617670747451484,
+            "training_accuracy": 0.99884,
+            "validation_loss": 0.0038440496387581033,
+            "validation_accuracy": 0.9988,
+            "time_seconds": 21.480852127075195
+        },
+        {
+            "epoch": 8,
+            "training_loss": 0.003028755681551993,
+            "training_accuracy": 0.99938,
+            "validation_loss": 0.0039849459807698925,
+            "validation_accuracy": 0.9988,
+            "time_seconds": 19.79837679862976
+        },
+        {
+            "epoch": 9,
+            "training_loss": 0.0038689600727520885,
+            "training_accuracy": 0.99906,
+            "validation_loss": 0.003786771395965479,
+            "validation_accuracy": 0.9986666666666667,
+            "time_seconds": 19.007225036621094
+        },
+        {
+            "epoch": 10,
+            "training_loss": 0.003031954172998667,
+            "training_accuracy": 0.99918,
+            "validation_loss": 0.002927090050543969,
+            "validation_accuracy": 0.9990666666666667,
+            "time_seconds": 19.99265217781067
+        }
+    ],
+    "best_epoch": 10,
+    "best_validation_loss": 0.002927090050543969,
+    "checkpoint": "C:\\Users\\Priyank Jain\\Documents\\ByteGuard-IoV\\models\\temporal_byteguard_classifier.pt"
+}

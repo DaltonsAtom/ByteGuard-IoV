@@ -1,0 +1,60 @@
+{
+    "test_samples": 7500,
+    "experiments": {
+        "baseline": {
+            "experiment": "baseline",
+            "accuracy": 0.9998666666666667,
+            "macro_precision": 0.9998667554963359,
+            "macro_recall": 0.9998666666666667,
+            "macro_f1": 0.9998666666518519,
+            "total_inference_time_seconds": 0.8569713000324555,
+            "average_inference_time_ms": 0.11426284000432739,
+            "samples": 7500
+        },
+        "mask_id": {
+            "experiment": "mask_id",
+            "accuracy": 0.7729333333333334,
+            "macro_precision": 0.6689019419556773,
+            "macro_recall": 0.7729333333333333,
+            "macro_f1": 0.7080597801790284,
+            "total_inference_time_seconds": 0.9076494000037201,
+            "average_inference_time_ms": 0.12101992000049601,
+            "samples": 7500
+        },
+        "mask_payload": {
+            "experiment": "mask_payload",
+            "accuracy": 0.2,
+            "macro_precision": 0.04,
+            "macro_recall": 0.2,
+            "macro_f1": 0.06666666666666667,
+            "total_inference_time_seconds": 0.8825666000047931,
+            "average_inference_time_ms": 0.11767554666730576,
+            "samples": 7500
+        }
+    },
+    "roc_auc": {
+        "Normal": 1.0,
+        "DoS": 1.0,
+        "Fuzzy": 1.0,
+        "Gear Spoofing": 1.0,
+        "RPM Spoofing": 1.0
+    },
+    "precision_recall_average_precision": {
+        "Normal": 1.0,
+        "DoS": 1.0,
+        "Fuzzy": 1.0,
+        "Gear Spoofing": 1.0,
+        "RPM Spoofing": 1.0
+    },
+    "model_complexity": {
+        "total_parameters": 211461,
+        "trainable_parameters": 211461,
+        "model_size_bytes": 856841,
+        "model_size_mb": 0.8171472549438477
+    },
+    "interpretation": {
+        "baseline": "Evaluation using the original CAN ID and payload.",
+        "mask_id": "Sensitivity test with CAN ID replaced by UNK. This is not a separately trained CAN-ID ablation.",
+        "mask_payload": "Sensitivity test with payload tokens replaced by UNK. This is not a separately trained payload ablation."
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "test_samples": 7500,
+    "accuracy": 0.9998666666666667,
+    "macro_precision": 0.9998667554963359,
+    "macro_recall": 0.9998666666666667,
+    "macro_f1": 0.9998666666518519,
+    "classification_report": {
+        "Normal": {
+            "precision": 0.9993337774816788,
+            "recall": 1.0,
+            "f1-score": 0.9996667777407531,
+            "support": 1500.0
+        },
+        "DoS": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1500.0
+        },
+        "Fuzzy": {
+            "precision": 1.0,
+            "recall": 0.9993333333333333,
+            "f1-score": 0.9996665555185061,
+            "support": 1500.0
+        },
+        "Gear Spoofing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1500.0
+        },
+        "RPM Spoofing": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 1500.0
+        },
+        "accuracy": 0.9998666666666667,
+        "macro avg": {
+            "precision": 0.9998667554963359,
+            "recall": 0.9998666666666667,
+            "f1-score": 0.9998666666518519,
+            "support": 7500.0
+        },
+        "weighted avg": {
+            "precision": 0.9998667554963359,
+            "recall": 0.9998666666666667,
+            "f1-score": 0.9998666666518519,
+            "support": 7500.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            1500,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1500,
+            0,
+            0,
+            0
+        ],
+        [
+            1,
+            0,
+            1499,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            1500,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            1500
+        ]
+    ]
+}
