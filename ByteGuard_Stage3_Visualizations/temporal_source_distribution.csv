@@ -1,0 +1,17 @@
+Partition,Source recording,Records
+train,Gear Spoofing,12808
+train,RPM Spoofing,12736
+train,Fuzzy,12344
+train,DoS,12112
+validation,Gear Spoofing,1905
+validation,RPM Spoofing,1889
+validation,DoS,1868
+validation,Fuzzy,1838
+test,RPM Spoofing,1966
+test,Gear Spoofing,1871
+test,DoS,1851
+test,Fuzzy,1812
+normal_followup,DoS,5000
+normal_followup,Fuzzy,5000
+normal_followup,Gear Spoofing,5000
+normal_followup,RPM Spoofing,5000

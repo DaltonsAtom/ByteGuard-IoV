@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "single_record_mean_latency_ms": 1.7839789998106426,
+  "single_record_median_latency_ms": 1.5806999981577974,
+  "batched_latency_per_record_ms": 0.22140989999752492,
+  "batched_throughput_records_per_second": 4516.50987607681,
+  "latency_scope": "Neural network forward pass only. Excludes CSV loading, tokenization, CAN acquisition and communication overhead.",
+  "trainable_parameters": 221823,
+  "checkpoint_size_mb": 0.89678955078125
+}

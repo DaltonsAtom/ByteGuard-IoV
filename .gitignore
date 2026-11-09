@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables / secrets
+.env
+
+# ADD THESE: Ignore heavy project assets/outputs
+data/
+models/
+outputs/
+.idea/

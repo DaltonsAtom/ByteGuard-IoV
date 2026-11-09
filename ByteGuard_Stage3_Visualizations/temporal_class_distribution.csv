@@ -1,0 +1,21 @@
+Partition,Class,Records
+train,Normal,10000
+train,DoS,10000
+train,Fuzzy,10000
+train,Gear Spoofing,10000
+train,RPM Spoofing,10000
+validation,Normal,1500
+validation,DoS,1500
+validation,Fuzzy,1500
+validation,Gear Spoofing,1500
+validation,RPM Spoofing,1500
+test,Normal,1500
+test,DoS,1500
+test,Fuzzy,1500
+test,Gear Spoofing,1500
+test,RPM Spoofing,1500
+normal_followup,Normal,20000
+normal_followup,DoS,0
+normal_followup,Fuzzy,0
+normal_followup,Gear Spoofing,0
+normal_followup,RPM Spoofing,0

@@ -1,0 +1,6 @@
+,Normal,DoS,Fuzzy,Gear Spoofing,RPM Spoofing
+Normal,1500,0,0,0,0
+DoS,0,1500,0,0,0
+Fuzzy,2,0,1498,0,0
+Gear Spoofing,0,0,0,1500,0
+RPM Spoofing,0,0,0,0,1500

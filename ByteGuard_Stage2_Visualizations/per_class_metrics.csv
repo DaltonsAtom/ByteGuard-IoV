@@ -1,0 +1,6 @@
+Class,Precision,Recall,F1-score
+Normal,0.9993337774816788,1.0,0.9996667777407531
+DoS,1.0,1.0,1.0
+Fuzzy,1.0,0.9993333333333333,0.9996665555185061
+Gear Spoofing,1.0,1.0,1.0
+RPM Spoofing,1.0,1.0,1.0

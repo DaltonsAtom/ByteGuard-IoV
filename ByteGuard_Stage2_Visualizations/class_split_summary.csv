@@ -1,0 +1,6 @@
+Class,Train,Validation,Test
+Normal,7000,1500,1500
+DoS,7000,1500,1500
+Fuzzy,7000,1500,1500
+Gear Spoofing,7000,1500,1500
+RPM Spoofing,7000,1500,1500

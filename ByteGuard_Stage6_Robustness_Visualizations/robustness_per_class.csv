@@ -1,0 +1,21 @@
+experiment,class,precision,recall,f1_score,support
+baseline,Normal,0.9986684420772304,1.0,0.9993337774816788,1500
+baseline,DoS,1.0,1.0,1.0,1500
+baseline,Fuzzy,1.0,0.9986666666666668,0.9993328885923948,1500
+baseline,Gear Spoofing,1.0,1.0,1.0,1500
+baseline,RPM Spoofing,1.0,1.0,1.0,1500
+can_id,Normal,0.4996668887408394,1.0,0.6663705019991115,1500
+can_id,DoS,0.0,0.0,0.0,1500
+can_id,Fuzzy,1.0,0.9986666666666668,0.9993328885923948,1500
+can_id,Gear Spoofing,1.0,1.0,1.0,1500
+can_id,RPM Spoofing,1.0,1.0,1.0,1500
+payload,Normal,0.0,0.0,0.0,1500
+payload,DoS,0.0,0.0,0.0,1500
+payload,Fuzzy,0.2,1.0,0.3333333333333333,1500
+payload,Gear Spoofing,0.0,0.0,0.0,1500
+payload,RPM Spoofing,0.0,0.0,0.0,1500
+combined,Normal,0.0,0.0,0.0,1500
+combined,DoS,0.0,0.0,0.0,1500
+combined,Fuzzy,0.2,1.0,0.3333333333333333,1500
+combined,Gear Spoofing,0.0,0.0,0.0,1500
+combined,RPM Spoofing,0.0,0.0,0.0,1500

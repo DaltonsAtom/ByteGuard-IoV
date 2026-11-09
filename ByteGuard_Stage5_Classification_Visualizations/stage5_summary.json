@@ -1,0 +1,13 @@
+{
+  "best_epoch": 10,
+  "best_validation_loss": 0.002927090050543969,
+  "test_records": 7500,
+  "test_accuracy": 0.9997333333333334,
+  "test_macro_precision": 0.9997336884154461,
+  "test_macro_recall": 0.9997333333333334,
+  "test_macro_f1": 0.9997333332148148,
+  "followup_records": 20000,
+  "followup_true_negatives": 20000,
+  "followup_false_positives": 0,
+  "followup_observed_false_positive_rate": 0.0
+}
